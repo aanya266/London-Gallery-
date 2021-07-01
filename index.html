@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> London Gallery </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <center>
+        <ul class="menu">
+            <li class="links"><a href="#welcomesec">Home</a></li>
+            <li class="links"><a href="#gridsec">Grid</a></li>
+            <li class="links"><a href="#slidesec">Slide</a></li>
+            <li class="links"><a href="#chatbotsec">Chat-Bot</a></li>
+        </ul>
+    </center>
+    <section id="welcomesec">
+        <center>
+            <p> ALL ABOUT LONDON </p>
+        </center>
+    </section>
+    <center>
+        <section id="gridsec">
+            <p class="titles">GRID GALLERY </p>
+            <div class="row">
+                <img class="grid1" src="1.jpg">
+                <img id="abc" src="2.jfif">
+                <img class="grid1" src="3.jfif">
+                <img class="grid1" src="4.jfif">
+            </div>
+            <br>
+            <div class="row">
+                <img class="grid1" src="5.jfif">
+                <img class="grid1" src="6.jfif">
+                <img class="grid1" src="7.jpg">
+                <img class="grid1" src="8.jfif">
+            </div>
+        </section>
+    </center>
+    <div class="container">
+        <center>
+            <section id="slidesec">
+                <p class="titles"> SLIDE VIEW </p>
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <center>
+                                <img class="image-responsive" src="1.jpg" alt="Westminster Abbey" style="width: 100%">
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="image-responsive" src="2.jfif" alt="Tower Bridge" style="width: 100%">
+                            </center>
+                        </div>
+
+                        <div class="item">
+                            <center>
+                                <img class="image-responsive" src="3.jfif" alt="Big Ben" style="width: 100%">
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="image-responsive" src="4.jfif" alt="London Eye" style="width: 100%">
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="image-responsive" src="5.jfif" alt="Tower Bridge Opening" style="width: 100%">
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="image-responsive" src="6.jfif" alt="Tower Bridge Area" style="width: 100%">
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="image-responsive" src="7.jpg" alt="London Bridge" style="width: 100%">
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="image-responsive" src="8.jfif" alt="Piccidally Circus" style="width: 100%">
+                            </center>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+        </center>
+    </div>
+    <center>
+        <section id="chatbotsec">
+            <p class="titles"> CHAT-BOT</p>
+            <h6>You can use the chat-bot inorder to find out more about london. </h6>
+            <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/d8283bd9-a0da-44f9-9baa-9d71c03fe025">
+            </iframe>
+        </section>
+    </center>
+</body>
+
+</html>
