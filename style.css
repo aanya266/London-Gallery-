@@ -1,0 +1,85 @@
+.menu {
+    background: linear-gradient(#fd1d1d 0%, #fcb045 85%);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    list-style: none;
+    top: 0px;
+    margin-top: 0px;
+}
+
+.links {
+    display: inline;
+    text-decoration: none;
+    padding-left: 33px;
+    color: black important !;
+    padding-right: 25px;
+    font-family: impact;
+    font-size: 20px;
+
+}
+
+.links:hover {
+    font-size: 25px;
+    color: white;
+}
+
+h2 {
+    font-family: fantasy;
+    color: crimson;
+    margin-left: 30px;
+    margin-bottom: 300px;
+}
+
+#welcomesec {
+    background-image: url(Welcomesec%20image.jfif);
+    padding-top: 80px;
+}
+
+#welcomesec p {
+    color: brown;
+    font-size: 200px;
+    font-family: impact;
+    font-style: italic;
+}
+
+.titles {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: coral;
+    padding-top: 200px;
+
+}
+
+#abc {
+    width: 180px;
+    height: 100px;
+}
+
+.grid1 {
+    width: 200px;
+    height: 100px;
+}
+
+#mycarousel img {
+    width: 400px !important;
+    height: 400px !important;
+    margin-top: 35px;
+}
+
+#mycarousel {
+    background-color: antiquewhite;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+h6 {
+    color: brown;
+    font-family: monospace;
+    font-size: 30px;
+}
+
